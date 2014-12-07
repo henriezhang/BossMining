@@ -162,7 +162,7 @@ public class MessageClassifier implements Serializable {
      * -t 模型文件
      *  包含模型的文件。如果不存在该文件，就会自动创建。
      *
-     *  @param args 命令行选项
+     *  //@param args 命令行选项
      */
     public static void main(String[] options) {
 
