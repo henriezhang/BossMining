@@ -6,7 +6,7 @@
 
     <groupId>tencent</groupId>
     <artifactId>BossMining</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
 
     <dependencies>
         <!-- weeka libs   -->
@@ -23,6 +23,8 @@
             <artifactId>mahout-core</artifactId>
             <version>0.9</version>
         </dependency>
+
+        <!--
         <dependency>
             <groupId>org.apache.mahout</groupId>
             <artifactId>mahout-math</artifactId>
@@ -33,10 +35,13 @@
             <artifactId>mahout-collections</artifactId>
             <version>1.0</version>
         </dependency>
+        -->
+
+        <!-- A Library for Support Vector Machines -->
         <dependency>
-            <groupId>org.apache.mahout</groupId>
-            <artifactId>mahout-distribution</artifactId>
-            <version>0.9</version>
+            <groupId>tw.edu.ntu.csie</groupId>
+            <artifactId>libsvm</artifactId>
+            <version>3.17</version>
         </dependency>
 
         <!-- JAMA is a basic linear algebra package for Java -->

@@ -1,0 +1,16 @@
+V1,20141010,数据挖掘相关程序
+
+V2,20150120,添加canopy程序，kmeans程序
+canopy输入数据格式
+data：
+id1, otherinfo1, d1, d2, d3, d4, ...,dn
+id2, otherinfo2, d1, d2, d3, d4, ...,dn
+canopy输出数据格式
+
+kmeans输入数据格式
+data：
+id1, otherinfo1, d1, d2, d3, d4, ...,dn
+id2, otherinfo2, d1, d2, d3, d4, ...,dn
+centers：
+
+kmeans输出数据格式
