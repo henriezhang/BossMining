@@ -63,9 +63,6 @@ public class CanopyDriver extends Configured implements Tool {
         job.setReducerClass(CanopyReducer.class);
         job.setNumReduceTasks(reduceNum);
 
-        //job.setReducerClass(Reducer.class);
-        //job.setNumReduceTasks(0);
-
         // 设置Map输出的key和value的类型
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(CanopyItem.class);

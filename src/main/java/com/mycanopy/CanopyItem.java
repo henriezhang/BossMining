@@ -123,7 +123,7 @@ public class CanopyItem implements Writable {
             sb.append(vec[i]);
             sb.append(" ");
         }
-        return sb.substring(0, sb.length() - 2);
+        return sb.substring(0, sb.length() - 1);
     }
 
     public String toString() {
@@ -134,6 +134,6 @@ public class CanopyItem implements Writable {
             sb.append(vec[i]);
             sb.append(" ");
         }
-        return sb.substring(0, sb.length() - 2);
+        return sb.substring(0, sb.length() - 1);
     }
 }
